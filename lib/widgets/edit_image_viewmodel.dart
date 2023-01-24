@@ -191,8 +191,8 @@ abstract class EditImageViewModel extends State<EditImageScreen> {
         actions: <Widget>[
           DefaultButton(
             onPressed: () => Navigator.of(context).pop(),
-            color: Colors.white,
-            textColor: Colors.black87,
+            color: Colors.black26,
+            textColor: Colors.white,
             child: const Text('Back'),
           ),
           DefaultButton(

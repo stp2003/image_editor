@@ -104,6 +104,7 @@ class _EditImageScreenState extends EditImageViewModel {
   // Appbar ->
   AppBar get _appBar => AppBar(
       backgroundColor: Colors.black26,
+      leading: const BackButton(),
       automaticallyImplyLeading: false,
       title: SizedBox(
         height: 50,

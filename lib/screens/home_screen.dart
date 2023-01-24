@@ -8,6 +8,12 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('Upload an Image'),
+        backgroundColor: const Color(0xFF2A2A2A),
+        elevation: 0.0,
+        centerTitle: true,
+      ),
       body: Center(
         child: IconButton(
           onPressed: () async {
@@ -26,6 +32,7 @@ class HomeScreen extends StatelessWidget {
           },
           icon: const Icon(
             Icons.upload_file,
+            size: 32.0,
           ),
         ),
       ),
