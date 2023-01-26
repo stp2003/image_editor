@@ -2,7 +2,7 @@
     package="com.example.image_editor">
    <application
         android:requestLegacyExternalStorage="true"
-        android:label="image_editor"
+        android:label="Image Editor"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
